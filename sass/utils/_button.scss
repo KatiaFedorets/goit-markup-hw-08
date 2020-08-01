@@ -1,0 +1,17 @@
+%button {
+    
+    color: $white-color;
+    background-color: $accent-text-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    min-width: 200px ;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    border: none;
+    
+}

@@ -1,0 +1,41 @@
+.contact-list {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+
+.contact-list .item + .item{
+    margin-left: 32px;
+
+}
+.contact-list a{
+
+    color: $text-color;
+
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  
+}
+
+ul.contact-list {
+    padding: 0;
+}
+
+.contact-list a:hover {
+    color: $accent-text-color;
+    transition: $transform250ms;
+} 
+
+.contact-list a:focus {
+    color: $accent-text-color;
+    transition: $transform250ms;
+}
+
+.contact-icon {
+    fill: currentColor;
+    margin-right: 10PX;
+}

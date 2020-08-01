@@ -1,0 +1,16 @@
+.direction{
+    @extend .section;
+}
+
+.direction-flex {
+    display: flex;
+}
+
+.direction-item {
+    margin-right: 30px;
+
+    &:last-child {
+    margin-right: 0;
+}
+
+}
